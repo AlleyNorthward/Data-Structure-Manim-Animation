@@ -1,0 +1,8 @@
+@startuml 场景切分
+class "场景切分" as A{
+    ==左右分隔==
+    + 电脑1(scale 3 to_edge(RIGHT, buff = 1.2))
+    + 电脑2(scale 2.4 stretch(height 6) to_edge(RIGHT, buff = 1.2) set_color(TEAL))
+}
+
+@enduml

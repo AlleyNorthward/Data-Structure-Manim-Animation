@@ -1,0 +1,11 @@
+@startuml 思考疑问警告
+class "思考疑问警告" as A{
+    ==疑问+思考==
+    + 问号1(submobject设置颜色)
+    + 疑问1
+    ==自主查询==
+    + 搜索疑问(set_color TEAL 可以添加抖动效果)
+}
+
+
+@enduml

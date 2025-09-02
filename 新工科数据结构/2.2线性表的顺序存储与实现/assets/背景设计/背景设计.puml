@@ -1,0 +1,16 @@
+@startuml 背景颜色设计
+class "背景颜色设计" as A{
+    ==讲解图案==
+    + 星空1(config_height + stretch)
+    + 星空2(config_height + stretch)
+    + 星空3(config_height + stretch)
+    + 深蓝(#03091F)
+    ==过度图片==
+    + 两朵蝴蝶(config, 背景颜色纯白)
+    + 四个小人(config)
+    ==颜色==
+    + 奶白色(#f3f3f3)
+}
+
+
+@enduml
